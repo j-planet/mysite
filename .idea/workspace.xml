@@ -4,14 +4,18 @@
     <list default="true" id="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/__init__.py" afterPath="$PROJECT_DIR$/contact/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/admin.py" afterPath="$PROJECT_DIR$/books/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/templates/base.html" afterPath="$PROJECT_DIR$/mysite/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/templates/contact_form.html" afterPath="$PROJECT_DIR$/contact/templates/contact_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/templates/current_datetime.html" afterPath="$PROJECT_DIR$/mysite/templates/current_datetime.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/forms.py" afterPath="$PROJECT_DIR$/contact/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/templates/hours_ahead.html" afterPath="$PROJECT_DIR$/mysite/templates/hours_ahead.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/templates/meta.html" afterPath="$PROJECT_DIR$/mysite/templates/meta.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/models.py" afterPath="$PROJECT_DIR$/books/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/models.py" afterPath="$PROJECT_DIR$/contact/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mysite.iml" afterPath="$PROJECT_DIR$/.idea/mysite.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/other.xml" afterPath="$PROJECT_DIR$/.idea/other.xml" />
@@ -20,23 +24,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/templates/search_results.html" afterPath="$PROJECT_DIR$/books/templates/search_results.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testrunner.xml" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/tests.py" afterPath="$PROJECT_DIR$/contact/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books/views.py" afterPath="$PROJECT_DIR$/books/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/views.py" afterPath="$PROJECT_DIR$/contact/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/views.py" afterPath="$PROJECT_DIR$/mysite/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377206743634" ignored="false" />
-    <file path="/views.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377234965023" ignored="false" />
-    <file path="/urls.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377236465176" ignored="false" />
+    <file path="/Dummy.txt" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377293247081" ignored="false" />
+    <file path="/views.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377308763766" ignored="false" />
+    <file path="/urls.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377307311551" ignored="false" />
     <file path="/Python Console" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377235026463" ignored="false" />
-    <file path="/Django Console" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377044064656" ignored="false" />
-    <file path="/settings.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377037488466" ignored="false" />
+    <file path="/Django Console" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377300594302" ignored="false" />
+    <file path="/settings.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377299420073" ignored="false" />
     <file path="/current_datetime.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377211302035" ignored="false" />
-    <file path="/fragment.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1376996607904" ignored="false" />
-    <file path="/base.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377211255391" ignored="false" />
+    <file path="/fragment.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377295203391" ignored="false" />
+    <file path="/base.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377309805335" ignored="false" />
     <file path="/hours_ahead.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377211284022" ignored="false" />
     <file path="/models.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377120867256" ignored="false" />
     <file path="/admin.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377174805018" ignored="false" />
@@ -44,8 +50,10 @@
     <file path="/meta.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377211324147" ignored="false" />
     <file path="/search_form.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377210833014" ignored="false" />
     <file path="/search_results.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377209057122" ignored="false" />
-    <file path="/contact_form.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377236267800" ignored="false" />
-    <file path="/forms.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377214966516" ignored="false" />
+    <file path="/contact_form.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377302476455" ignored="false" />
+    <file path="/forms.py" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377309324863" ignored="false" />
+    <file path="/thanks.html" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377302518037" ignored="false" />
+    <file path="/todo" changelist="3fcb8796-3a3f-4d1d-9c05-e92b432e1b37" time="1377312244778" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,35 +70,85 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact_form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/templates/contact_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.8846154">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="53" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="5" selection-start="115" selection-end="115" vertical-scroll-proportion="0.02915952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="75" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#169#188#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contact/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="648" selection-end="648" vertical-scroll-proportion="0.7602862">
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state line="16" column="51" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="63" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thanks.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact/templates/thanks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.2692308">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/books/admin.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/mysite/views.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/search_form.html" />
         <option value="$PROJECT_DIR$/books/templates/search_results.html" />
         <option value="$PROJECT_DIR$/books/views.py" />
         <option value="$PROJECT_DIR$/books/templates/search_form.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/base.html" />
         <option value="$PROJECT_DIR$/mysite/templates/hours_ahead.html" />
         <option value="$PROJECT_DIR$/mysite/templates/current_datetime.html" />
         <option value="$PROJECT_DIR$/mysite/templates/meta.html" />
         <option value="$PROJECT_DIR$/mysite/templates/contact_form.html" />
-        <option value="$PROJECT_DIR$/contact/forms.py" />
-        <option value="$PROJECT_DIR$/contact/templates/contact_form.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/contact/templates/thanks.html" />
         <option value="$PROJECT_DIR$/contact/views.py" />
+        <option value="$PROJECT_DIR$/contact/forms.py" />
+        <option value="$PROJECT_DIR$/contact/static/contact.css" />
+        <option value="$PROJECT_DIR$/contact/templates/contact_form.html" />
+        <option value="$PROJECT_DIR$/mysite/templates/base.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/todo" />
       </list>
     </option>
   </component>
@@ -224,6 +282,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -286,13 +362,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -304,6 +381,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\django_projects\mysite\mysite" />
+      <recent name="C:\code\django_projects\mysite" />
       <recent name="C:\code\django_projects\mysite\contact\templates" />
       <recent name="C:\code\django_projects\mysite\books\templates" />
     </key>
@@ -322,27 +401,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="mysite" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -366,6 +424,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="mysite" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,9 +463,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -452,16 +538,16 @@
     <frame x="808" y="1" width="1114" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28992397" sideWeight="0.6617647" order="2" side_tool="false" content_ui="tabs" x="894" y="104" width="924" height="840" />
+      <window_info id="Documentation" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28992397" sideWeight="0.72737557" order="2" side_tool="false" content_ui="tabs" x="894" y="104" width="924" height="840" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19106464" sideWeight="0.6617647" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33555132" sideWeight="0.72737557" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27262443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.6734007" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -526,48 +612,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="3806" selection-end="3806" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/books/templates/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="312" selection-end="312" vertical-scroll-proportion="0.35084426">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="312" selection-end="312" vertical-scroll-proportion="0.35084426" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/hours_ahead.html">
@@ -591,62 +651,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/templates/search_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06378987">
+        <state line="2" column="25" selection-start="39" selection-end="39" vertical-scroll-proportion="0.06378987" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact/forms.py">
+    <entry file="file://$PROJECT_DIR$/contact/templates/thanks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.060822897">
+        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.2692308">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact/templates/contact_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.8846154">
-          <folding>
-            <element signature="e#169#188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state line="16" column="51" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/views.py">
+    <entry file="file://$PROJECT_DIR$/contact/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.51699466">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state line="5" column="63" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="648" selection-end="648" vertical-scroll-proportion="0.7602862">
+        <state line="25" column="75" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/templates/contact_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="115" selection-end="115" vertical-scroll-proportion="0.02915952">
+          <folding />
         </state>
       </provider>
     </entry>
