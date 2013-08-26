@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Request Meta Data{% endblock %}
+
+{% block h1 %}Meta Data{% endblock %}
+
+{% block content %}
+<table>
+{% for k, v in data.iteritems %}
+    <tr>
+        <td>{{ k }}</td>
+        <td>{{ v }}</td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

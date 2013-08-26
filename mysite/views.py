@@ -22,3 +22,18 @@ def hours_ahead(request, offset):
     dt = datetime.now() + timedelta(hours=offset)
 
     return render(request, 'hours_ahead.html', {'hour_offset': offset, 'next_time': dt})
+
+
+def display_meta(request):
+    values = request.META.items()
+    values.sort()
+    html = dict()
+
+    html['request.GET'] = request.GET
+    html['request.POST'] = request.POST
+    html['request.path'] = request.path
+
+    for k, v in values:
+        html[k] = v
+
+    return render(request, 'meta.html', {'data': html})

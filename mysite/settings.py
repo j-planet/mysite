@@ -1,5 +1,6 @@
 # Django settings for mysite project.
 import os.path
+from django.conf.global_settings import EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -70,6 +71,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -117,6 +119,7 @@ TEMPLATE_DIRS = (
 
 INSTALLED_APPS = (
     'books',
+    'contact',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -157,3 +160,12 @@ LOGGING = {
         },
     }
 }
+
+# email stuff
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = None
+EMAIL_HOST_PASSWORD = None
+# EMAIL_HOST_USER = 'jin.yuejenny@gmail.com'
+# EMAIL_HOST_PASSWORD = "i'mfree!"
+EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
