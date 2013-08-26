@@ -10,7 +10,7 @@ class ContactForm(forms.Form):
         message = self.cleaned_data['message']
         num_words = len(message.split())
 
-        if num_words<4:
+        if num_words < 4:
             raise forms.ValidationError("Not enough words!")
 
         # don't forget to return! otherwise, we'll lose this value!
