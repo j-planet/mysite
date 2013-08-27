@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.conf.urls import patterns, include, url
 from django.conf import settings
+import contact.views
 
 # Uncomment the next two lines to enable the admin:
 admin.autodiscover()
@@ -15,9 +16,10 @@ urlpatterns += patterns('books.views',
                         url(r'^search/$', 'search'),)
 
 # contact stuff
-urlpatterns += patterns('contact.views',
-                        url(r'^contact/$', 'contact'),
-                        url(r'^contact/thanks/$', 'thanks'),)
+urlpatterns += patterns('',
+                        url(r'^contact/$', 'mysite.views.method_splitter',
+                            {'GET': contact.views.contact_get, 'POST': contact.views.contact_post}),
+                        url(r'^contact/thanks/$', 'contact.views.thanks'),)
 
 # default django stuff
 urlpatterns += patterns('',
