@@ -1,6 +1,20 @@
 from django.db import models
 
 
+# -------- helper classes ------------
+
+class BookManager(models.Manager):
+    def title_count(self, title):
+        return self.filter(title__icontains=title).count()
+
+
+class AwesomeBookManager(models.Manager):
+    def get_query_set(self):
+        return super(AwesomeBookManager, self).get_query_set().filter(authors__first_name__icontains='awesome')
+
+
+# -------- Model classes ------------
+
 # Create your models here.
 class Publisher(models.Model):
     name = models.CharField(max_length=30)
@@ -32,6 +46,10 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher)
     publication_date = models.DateField(blank=True, null=True)
     num_pages = models.IntegerField(blank=True, null=True)
+    objects = BookManager()
+    awesome_objects = AwesomeBookManager()
 
     def __unicode__(self):
         return self.title
+
+
