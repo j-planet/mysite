@@ -1,2 +1,3 @@
 - send email from another email address (other than the one used for smtp authentication) to my email address
 - css
+- where is TEMPLATE_CONTEXT_PROCESSORS set?
