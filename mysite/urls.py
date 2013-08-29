@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.conf.urls import patterns, include, url
 from django.conf import settings
+from django.views.generic import TemplateView
 import contact.views
 
 # Uncomment the next two lines to enable the admin:
@@ -10,7 +11,8 @@ admin.autodiscover()
 urlpatterns = patterns('mysite.views',
                        url(r'^hello/$', 'hello'),
                        url(r'^time/$', 'current_datetime'),
-                       url(r'^time/plus/(?P<offset>\d{1,2})/$', 'hours_ahead'),)
+                       url(r'^time/plus/(?P<offset>\d{1,2})/$', 'hours_ahead'),
+                       url(r'^about/$', TemplateView.as_view(template_name="about.html")),)
 # books stuff
 urlpatterns += patterns('books.views',
                         url(r'^search/$', 'search'),)
