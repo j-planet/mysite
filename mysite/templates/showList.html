@@ -1,0 +1,15 @@
+{#displays a list of objects, each of which is assumed to have a "name" attribute#}
+
+{% extends "base.html" %}
+
+{% block title %}{{ name }}{% endblock %}
+
+{% block h1 %}All {{ name }}{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for obj in object_list %}
+            <li>{{ obj.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

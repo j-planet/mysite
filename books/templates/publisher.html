@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Publisher: {{ object.name }}{% endblock %}
+
+{% block h1 %}Publisher: {{ object.name }}{% endblock %}
+
+{% block content %}
+    <p>{{ object.address }}</p>
+    <p>{{ object.city }}</p>
+    <p>{{ object.state_province }}</p>
+    <p>{{ object.country }}</p>
+    <p>{{ object.website }}</p>
+
+{% endblock %}
