@@ -1,21 +1,27 @@
 from django.contrib import admin
 from django.conf.urls import patterns, include, url
 from django.conf import settings
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, DetailView
+
+from views import JJListView
 import contact.views
+from books.models import Publisher, Book, Author
 
 # Uncomment the next two lines to enable the admin:
 admin.autodiscover()
 
 # mysite stuff
 urlpatterns = patterns('mysite.views',
-                       url(r'^hello/$', 'hello'),
+                       url(r'^hello/$', TemplateView.as_view(template_name='hello.html')),
                        url(r'^time/$', 'current_datetime'),
                        url(r'^time/plus/(?P<offset>\d{1,2})/$', 'hours_ahead'),
-                       url(r'^about/$', TemplateView.as_view(template_name="about.html")),)
+                       )
 # books stuff
 urlpatterns += patterns('books.views',
-                        url(r'^search/$', 'search'),)
+                        url(r'^search/$', 'search'),
+                        url(r'^publishers/$', JJListView.as_view(model=Publisher, name='Publishers'),),
+                        url(r'^publishers/(?P<pk>\d+)/$', DetailView.as_view(model=Publisher, template_name='publisher.html'))
+                        )
 
 # contact stuff
 urlpatterns += patterns('',

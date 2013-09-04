@@ -1,10 +1,9 @@
 from django.http import HttpResponse, Http404
 from django.shortcuts import render
+from django.views.generic import ListView, DetailView
+
 from datetime import datetime, timedelta
-
-
-def hello(request):
-    return HttpResponse("Hello world.")
+from books.models import Publisher, Book
 
 
 def current_datetime(request):
@@ -50,3 +49,30 @@ def method_splitter(request, *args, **kwargs):
         return post_view(request, *args, **kwargs)
 
     raise Http404
+
+
+# subclass ListView
+class JJListView(ListView):
+    template_name = 'showList.html'
+    name = 'DEFAULT NAME :('
+
+    def get_context_data(self, **kwargs):
+        # call base
+        context = super(JJListView, self).get_context_data(**kwargs)
+
+        # add name
+        context['name'] = self.name
+
+        return context
+
+
+class JJDPublisheretailView(DetailView):
+    model = Publisher
+    template_name = 'publisher.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(JJDPublisheretailView, self).get_context_data(**kwargs)
+
+        context['book_list'] = Book.objects.filter(publisher = publisher)
+
+        return context
