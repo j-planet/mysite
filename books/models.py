@@ -35,6 +35,7 @@ class Author(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=40)
     email = models.EmailField(blank=True, verbose_name='e-mail')
+    last_accessed = models.DateTimeField()
 
     def __unicode__(self):
         return u'%s %s' % (self.first_name, self.last_name)

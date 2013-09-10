@@ -1,0 +1,15 @@
+{#displays a list of objects, each of which is assumed to have a "name" attribute#}
+
+{% extends "base.html" %}
+
+{% block title %}Books for publisher "{{ publisher.name }}"{% endblock %}
+
+{% block h1 %}Books for publisher "{{ publisher.name }}"{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for obj in book_list %}
+            <li>{{ obj.title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

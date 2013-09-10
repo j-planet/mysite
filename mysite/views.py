@@ -1,9 +1,9 @@
 from django.http import HttpResponse, Http404
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView
 
 from datetime import datetime, timedelta
-from books.models import Publisher, Book
+from books.models import Publisher, Book, Author
 
 
 def current_datetime(request):
@@ -66,13 +66,30 @@ class JJListView(ListView):
         return context
 
 
-class JJDPublisheretailView(DetailView):
-    model = Publisher
-    template_name = 'publisher.html'
+class JJPublisherBookListView(ListView):
+
+    context_object_name = "book_list"
+    template_name = "books_by_publisher.html"
+
+    def get_queryset(self):
+        self.publisher = get_object_or_404(Publisher, name__iexact=self.kwargs['pubName'])
+        return Book.objects.filter(publisher=self.publisher)
 
     def get_context_data(self, **kwargs):
-        context = super(JJDPublisheretailView, self).get_context_data(**kwargs)
-
-        context['book_list'] = Book.objects.filter(publisher = publisher)
-
+        context = super(JJPublisherBookListView, self).get_context_data(**kwargs)
+        context['publisher'] = self.publisher
         return context
+
+
+class JJAuthorDetailView(DetailView):
+
+    queryset = Author.objects.all()
+    template_name = 'author_detail.html'
+    context_object_name = 'author'
+
+    def get_object(self, queryset=None):
+        object = super(JJAuthorDetailView, self).get_object()
+        object.last_accessed = datetime.now()
+        object.save()
+
+        return object

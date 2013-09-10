@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ author.first_name }} {{ author.last_name }} {% endblock %}
+
+{% block h1 %} {{ author.first_name }} {{ author.last_name }} {% endblock %}
+
+{% block content %}
+    <ul>
+        <li>First name: {{ author.first_name }}</li>
+        <li>Last name: {{ author.last_name }}</li>
+        <li>Email: {{ author.email }}</li>
+        <li>Last accessed: {{ author.last_accessed }}</li>
+    </ul>
+{% endblock %}
