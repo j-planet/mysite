@@ -1,12 +1,22 @@
 # Django settings for mysite project.
-import os.path
-from django.conf.global_settings import EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS
+import os.path, socket
+from django.conf.global_settings import EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS, SEND_BROKEN_LINK_EMAILS
 
-DEBUG = True
+# TODO: add laptop and other local dev machines
+if socket.gethostname() == 'CADT0780':
+    DEBUG = True
+else:
+    DEBUG = False
+
 TEMPLATE_DEBUG = DEBUG
 
+# this is supposed to make 404 show up. but it didn't work :(
+# ALLOWED_HOSTS = ['localhost', '*']
+
+SEND_BROKEN_LINK_EMAILS = True
+
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('JJ', 'jin.yuejenny@gmail.com')
 )
 
 MANAGERS = ADMINS
